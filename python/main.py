@@ -13,7 +13,7 @@ async def update():
 
 
 @app.post("/")
-async def post():
+async def create():
     return {"message": "I am post method"}
 
 
