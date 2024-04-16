@@ -13,10 +13,10 @@ async def update():
 
 
 @app.post("/")
-async def update():
+async def post():
     return {"message": "I am post method"}
 
 
 @app.delete("/")
-async def update():
+async def delete():
     return {"message": "I am deleting method"}
